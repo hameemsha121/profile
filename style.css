@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col,
+[class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ body {
+    background-image: url(images/cognizant.jpg);
+    background-size: contain;
+} 
+
+.body1 {
+    background-image: url(images\cognizant.jpg);
+    background-size: cover;
+    height: 91vh;
+}
+
+.body2 {
+    background-image: url(images/cognizant.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.body3 {
+    background-image: url(images/164604.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100vh;
+}
+
+.body4 {
+    background-image: url(images/314842.jpg);
+    background-size: contain;
+    height: 100vh;
+}
